@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "905065826748",
+    "firebase_url": "https://pkcomics-3cadb.firebaseio.com",
+    "project_id": "pkcomics-3cadb",
+    "storage_bucket": "pkcomics-3cadb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905065826748:android:f55e5dac989ab2d87b83b9",
+        "android_client_info": {
+          "package_name": "app.wah.pkcomics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905065826748-0tegp9981vfhvh1poivcngnj3587s8l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ3QOj5u_oFCSMh1V4l_ReM4dEY_wCTB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905065826748-0tegp9981vfhvh1poivcngnj3587s8l4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+{
+    "state": "200",
+    "message": "success",
+    "data": {
+      "cover": "http://api.webcomics.pk:3000/upload/big-images/subzero.jpg",
+      "title": "SubZero",
+      "author": "Junepurrr",
+      "favorite": "20K",
+      "view": "51.2K",
+      "description": "What would you sacrifice to save your family?  How far would you go to protect your people? For Clove, the last princess of a near-extinct Dragon clan, the answer is the unthinkable:  MARRY your greatest sworn enemy in an effort to bring peace to your land.",
+      "genre": "romance",
+      "episodeList": [
+        {
+          "id": 1101,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/subzero/001/thumb.png",
+          "episode": "Episode 0",
+          "index" : 1,
+          "date": "18.10.22"
+        },
+        {
+          "id": 1102,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/subzero/002/thumb.png",
+          "episode": "Episode 1",
+          "index" : 2,
+          "date": "18.10.22"
+        },
+        {
+          "id": 1103,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/subzero/063/thumb.png",
+          "episode": "Episode 58",
+          "index" : 61,
+          "date": "20.03.09"
+        },
+        {
+          "id": 1104,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/subzero/064/thumb.png",
+          "episode": "Episode 59",
+          "index" : 62,
+          "date": "20.03.16"
+        }
+      ]
+    }
+  }

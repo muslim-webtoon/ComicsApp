@@ -1,0 +1,21 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 1604,
+    "prev_id" : 1603,
+    "next_id" : 0,
+    "title" : "Episode 85",
+    "index" : 86,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/086/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/086/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/086/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/086/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/086/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/086/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/086/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/086/watermark/8.jpg"      
+    ]
+  }
+}

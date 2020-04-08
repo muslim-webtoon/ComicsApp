@@ -1,0 +1,22 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 1003,
+    "prev_id" : 1002,
+    "next_id" : 1004,
+    "title" : "Episode 101",
+    "index" : 101,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/105/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/105/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/105/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/105/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/105/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/105/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/105/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/105/watermark/8.jpg"      
+    ]
+  }
+}
+

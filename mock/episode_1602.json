@@ -1,0 +1,22 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 1602,
+    "prev_id" : 1601,
+    "next_id" : 1603,
+    "title" : "Episode 2",
+    "index" : 2,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/002/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/002/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/002/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/002/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/002/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/002/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/002/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/truebeauty/002/watermark/8.jpg"      
+    ]
+  }
+}
+

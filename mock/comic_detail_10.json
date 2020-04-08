@@ -1,0 +1,44 @@
+{
+    "state": "200",
+    "message": "success",
+    "data": {
+      "cover": "http://api.webcomics.pk:3000/upload/big-images/lookism.jpg",
+      "title": "Lookism",
+      "author": "Taejoon Park",
+      "favorite": "20K",
+      "view": "51.2K",
+      "description": "A miracle is about to happen to an unattractive loner guy.",
+      "genre": "drama",
+      "episodeList": [
+        {
+          "id": 1901,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/lookism/001/thumb.png",
+          "episode": "Ep. 1",
+          "index" : 1,
+          "date": "18.03.04"
+        },
+        {
+          "id": 1902,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/lookism/002/thumb.png",
+          "episode": "Ep. 2",
+          "index" : 2,
+          "date": "18.03.04"
+        },
+        {
+          "id": 1903,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/lookism/273/thumb.png",
+          "episode": "Ep. 273: Hostel (4)",
+          "index" : 273,
+          "date": "20.03.08"
+        },
+        {
+          "id": 1904,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/lookism/274/thumb.png",
+          "episode": "Ep. 274: Hostel (5)",
+          "index" : 274,
+          "date": "20.03.15"
+        }
+
+      ]
+    }
+  }

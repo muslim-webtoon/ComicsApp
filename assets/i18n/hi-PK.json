@@ -1,0 +1,54 @@
+{
+  "title": "Pehli Toon",
+  "home": {
+      "recently": "Haal hi mein",
+      "ranking": "Darja bandi",
+      "daily": "Rozana",
+      "more": "Mazeed",
+      "top_10": "Top 10"
+  },
+  "comic": {
+      "weekly": {
+          "weekly": "Haftawar",
+          "mon": "Pir",
+          "tue": "Mangal",
+          "wen": "Budh",
+          "thu": "Jumaraat",
+          "fri": "Jumma",
+          "sat": "Hafta",
+          "sun": "Itwaar"
+      },
+      "genres": {
+          "genres": "Anwaa",
+          "romance": "romanvi",
+          "drama": "Drama",
+          "fantasy": "Tasawwur",
+          "action": "Action",
+          "slice_of_life": "Zindagi ka tukda"
+      },
+      "ranking": "Darja bandi",
+      "latest": "Taaza tareen"
+  },
+  "more": {
+      "login": "Sign un",
+      "language": "Zabaan"
+  },
+  "detail": {
+      "newest": "Taaza tareen",
+      "oldest": "Sab se qadeem",
+      "info": "Maloomat",
+      "read_ep_1": "Parheen Ep. 1",
+      "description": "Tafseel",
+      "creator": "Musannif",
+      "genres": "Anwaa"
+  },
+  "reader": {
+      "prev": "Pichla",
+      "next": "Aglay",
+      "comments": "Tabsaray",
+      "send_a_comment": "Tabsara karay"
+  },
+  "msg": "Hello {} in the {} world "
+}
+
+

@@ -1,0 +1,77 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "banner": [
+      "http://api.webcomics.pk:3000/upload/big-images/bts-save-me.jpg",
+      "http://api.webcomics.pk:3000/upload/big-images/days-of-hana.jpg",
+      "http://api.webcomics.pk:3000/upload/big-images/lookism.jpg",
+      "http://api.webcomics.pk:3000/upload/big-images/truebeauty.jpg",
+      "http://api.webcomics.pk:3000/upload/big-images/subzero.jpg"
+    ],
+    "blockList": [
+      {
+        "id": 1,
+        "cover": "http://api.webcomics.pk:3000/upload/posters/lore-olympus.jpg",
+        "title": "Lore Olympus",
+        "author": "Rachel Smythe"
+      },
+      {
+        "id": 2,
+        "cover": "http://api.webcomics.pk:3000/upload/posters/subzero.jpg",
+        "title": "SubZero",
+        "author": "Junepurrr"
+      },
+      {
+        "id": 3,
+        "cover": "http://api.webcomics.pk:3000/upload/posters/untouchable.jpg",
+        "title": "unTouchable",
+        "author": "masstar"
+      },
+      {
+        "id": 6,
+        "cover": "http://api.webcomics.pk:3000/upload/posters/letsplay.jpg",
+        "title": "Let’s Play",
+        "author": "Mongie"
+      }
+    ],
+    "recommendEveryDayList": [
+      {
+        "id": 7,
+        "cover": "http://api.webcomics.pk:3000/upload/posters/truebeauty.jpg",
+        "title": "True Beauty",
+        "author": "Yaongyi"
+      },
+      {
+        "id": 8,
+        "cover": "http://api.webcomics.pk:3000/upload/posters/bts-save-me.jpg",
+        "title": "SAVE ME",
+        "author": "muslimmanga"
+      },
+      {
+        "id": 9,
+        "cover": "http://api.webcomics.pk:3000/upload/posters/days-of-hana.jpg",
+        "title": "Days of Hana",
+        "author": "Seokwoo"
+      },
+      {
+        "id": 10,
+        "cover": "http://api.webcomics.pk:3000/upload/posters/lookism.jpg",
+        "title": "Lookism",
+        "author": "Taejoon Park"
+      },
+      {
+        "id": 11,
+        "cover": "http://api.webcomics.pk:3000/upload/posters/refundhighschool.jpg",
+        "title": "Refund High School",
+        "author": "LICO"
+      }
+    ],
+    "updateToday": {
+      "id" : 12,
+      "cover": "http://api.webcomics.pk:3000/upload/big-images/tower-of-god.jpg",
+      "title": "Tower of God",
+      "author": "Author: SIU"
+    }
+  }
+}

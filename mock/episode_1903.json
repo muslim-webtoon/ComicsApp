@@ -1,0 +1,21 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 1903,
+    "prev_id" : 1902,
+    "next_id" : 1904,
+    "title" : "Ep. 273: Hostel (4)",
+    "index" : 273,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/273/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/273/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/273/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/273/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/273/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/273/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/273/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/273/watermark/8.jpg"      
+    ]
+  }
+}

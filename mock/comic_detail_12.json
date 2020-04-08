@@ -1,0 +1,43 @@
+{
+    "state": "200",
+    "message": "success",
+    "data": {
+      "cover": "http://api.webcomics.pk:3000/upload/big-images/tower-of-god.jpg",
+      "title": "Tower of God",
+      "author": "SIU",
+      "favorite": "20K",
+      "view": "51.2K",
+      "description": "What do you desire? Money and wealth? Honor and pride? Authority and power? Revenge? Or something that transcends them all? Whatever you desire—it's here.",
+      "genre": "fantasy",
+      "episodeList": [
+        {
+          "id": 2101,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/tower-of-god/001/thumb.png",
+          "episode": "[Season 1] Ep. 0",
+          "index" : 1,
+          "date": "18.03.04"
+        },
+        {
+          "id": 2102,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/tower-of-god/002/thumb.png",
+          "episode": "[Season 1] Ep. 1 - 1F.Headon's Floor",
+          "index" : 2,
+          "date": "18.03.04"
+        },
+        {
+          "id": 2103,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/tower-of-god/470/thumb.png",
+          "episode": "[Season 3] Ep. 52",
+          "index" : 469,
+          "date": "20.03.08"
+        },
+        {
+          "id": 2104,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/tower-of-god/471/thumb.png",
+          "episode": "[Season 3] Ep. 53",
+          "index" : 470,
+          "date": "20.03.15"
+        }
+      ]
+    }
+  }

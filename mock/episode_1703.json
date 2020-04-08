@@ -1,0 +1,21 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 1703,
+    "prev_id" : 1702,
+    "next_id" : 1704,
+    "title" : "Ep.14",
+    "index" : 15,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/085/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/085/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/085/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/085/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/085/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/085/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/085/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/085/watermark/8.jpg"      
+    ]
+  }
+}

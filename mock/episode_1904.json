@@ -1,0 +1,21 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 1904,
+    "prev_id" : 1903,
+    "next_id" : 0,
+    "title" : "Ep. 274: Hostel (5)",
+    "index" : 274,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/274/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/274/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/274/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/274/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/274/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/274/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/274/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/lookism/274/watermark/8.jpg"      
+    ]
+  }
+}

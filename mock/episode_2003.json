@@ -1,0 +1,21 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 2003,
+    "prev_id" : 2002,
+    "next_id" : 2004,
+    "title" : "Ep. 134 (Last Episode)",
+    "index" : 134,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/134/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/134/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/134/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/134/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/134/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/134/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/134/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/134/watermark/8.jpg"      
+    ]
+  }
+}

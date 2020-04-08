@@ -1,0 +1,43 @@
+{
+    "state": "200",
+    "message": "success",
+    "data": {
+      "cover": "http://api.webcomics.pk:3000/upload/big-images/untouchable.jpg",
+      "title": "unTouchable",
+      "author": "masstar",
+      "favorite": "20K",
+      "view": "51.2K",
+      "description": "Sia Lee is a modern-day vampire who absorbs energy from humans by touching them instead of drinking their blood. She has been desperate to touch Jiho since the day he moved in next door—but he's a germaphobe. Will Sia best his mysophobia and touch Jiho?",
+      "genre": "romance",
+      "episodeList": [
+        {
+          "id": 1201,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/untouchable/001/thumb.png",
+          "episode": "Prologue",
+          "index" : 1,
+          "date": "14.07.01"
+        },
+        {
+          "id": 1202,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/untouchable/002/thumb.png",
+          "episode": "Ep. 1 - Gosh! Not There!",
+          "index" : 2,
+          "date": "14.07.01"
+        },
+        {
+          "id": 1203,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/untouchable/140/thumb.png",
+          "episode": "Ep. 138 - Last Episode",
+          "index" : 140,
+          "date": "17.05.20"
+        },
+        {
+          "id": 1204,
+          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/untouchable/141/thumb.png",
+          "episode": "Ep. 139 - Epilogue ~Touch~",
+          "index" : 141,
+          "date": "17.05.27"
+        }
+      ]
+    }
+  }

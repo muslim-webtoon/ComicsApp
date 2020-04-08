@@ -1,0 +1,37 @@
+{
+    "state": "200",
+    "message": "success",
+    "data": {
+      "updateTime": "2019-04-23 11:20",
+      "rankingList": [
+        {
+          "id": 1,
+          "cover": "http://api.webcomics.pk:3000/upload/posters/lore-olympus.jpg",
+          "title": "Lore Olympus",
+          "author": "Rachel Smythe",
+          "rating": 7.0
+        },
+        {
+          "id": 2,
+          "cover": "http://api.webcomics.pk:3000/upload/posters/subzero.jpg",
+          "title": "SubZero",
+          "author": "Junepurrr",
+          "rating": 7.0
+        },
+        {
+          "id": 3,
+          "cover": "http://api.webcomics.pk:3000/upload/posters/untouchable.jpg",
+          "title": "unTouchable",
+          "author": "masstar",
+          "rating": 7.0
+        },
+        {
+          "id": 6,
+          "cover": "http://api.webcomics.pk:3000/upload/posters/letsplay.jpg",
+          "title": "Let’s Play",
+          "author": "Mongie",
+          "rating": 7.0
+        }
+      ]
+    }
+  }

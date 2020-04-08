@@ -1,0 +1,21 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 1304,
+    "prev_id" : 1303,
+    "next_id" : 0,
+    "title" : "Afterword",
+    "index" : 143,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/143/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/143/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/143/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/143/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/143/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/143/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/143/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/143/watermark/8.jpg"      
+    ]
+  }
+}

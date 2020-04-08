@@ -1,0 +1,21 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 1403,
+    "prev_id" : 1402,
+    "next_id" : 1404,
+    "title" : "Ep. 140 (Last Episode)",
+    "index" : 140,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/oh-holy/140/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/oh-holy/140/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/oh-holy/140/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/oh-holy/140/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/oh-holy/140/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/oh-holy/140/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/oh-holy/140/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/oh-holy/140/watermark/8.jpg"      
+    ]
+  }
+}

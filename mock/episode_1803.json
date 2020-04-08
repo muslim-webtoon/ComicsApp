@@ -1,0 +1,21 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 1803,
+    "prev_id" : 1802,
+    "next_id" : 1804,
+    "title" : "Ep. 112",
+    "index" : 112,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/112/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/112/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/112/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/112/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/112/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/112/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/112/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/112/watermark/8.jpg"      
+    ]
+  }
+}

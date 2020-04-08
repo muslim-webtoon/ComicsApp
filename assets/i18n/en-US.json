@@ -1,0 +1,50 @@
+{
+    "title": "Pehli Toon",
+    "home": {
+        "recently": "Recently",
+        "ranking": "Ranking",
+        "daily": "Daily",
+        "more": "More",
+        "top_10": "Top 10"
+    },
+    "comic": {
+        "weekly": {
+            "mon": "Mon",
+            "tue": "Tue",
+            "wen": "Wen",
+            "thu": "Thu",
+            "fri": "Fri",
+            "sat": "Sat",
+            "sun": "Sun"
+        },
+        "genres": {
+            "romance": "Romance",
+            "drama": "Drama",
+            "fantasy": "Fantasy",
+            "action": "Action",
+            "slice_of_life": "Slice of Life"
+        },
+        "ranking": "Ranking",
+        "latest": "Latest"
+    },
+    "more": {
+        "login": "Login",
+        "language": "Language"
+    },
+    "detail": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "info": "Info",
+        "read_ep_1": "Read Ep. 1",
+        "description": "Description",
+        "creator": "Creator",
+        "genres": "Genres"
+    },
+    "reader": {
+        "prev": "Prev",
+        "next": "Next",
+        "comments": "Comments",
+        "send_a_comment": "Send a comment"
+    },
+    "msg": "Hello {} in the {} world "
+}

@@ -1,0 +1,21 @@
+{
+  "state": "200",
+  "message": "success",
+  "data": {
+    "id" : 1301,
+    "prev_id" : 0,
+    "next_id" : 1302,
+    "title" : "Ep. 0",
+    "index" : 1,
+    "comicPictureList": [
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/001/watermark/1.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/001/watermark/2.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/001/watermark/3.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/001/watermark/4.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/001/watermark/5.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/001/watermark/6.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/001/watermark/7.jpg",
+      "http://api.webcomics.pk:3000/upload/episodes/super-secret/001/watermark/8.jpg"
+    ]
+  }
+}
