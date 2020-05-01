@@ -3,6 +3,7 @@ import 'package:pkcomics/app/root_scene.dart';
 import 'package:pkcomics/app/splash_scene.dart';
 import 'package:pkcomics/comic/reader/reader_comment.dart';
 import 'package:pkcomics/comic/reader/reader_scene.dart';
+import 'package:pkcomics/me/login_scene.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -14,6 +15,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => RootScene());
       case '/splash':
         return MaterialPageRoute(builder: (_) => SplashScene());
+      case '/login':
+        return MaterialPageRoute(builder: (_) => LoginScene());
       case '/reader':
         // Validation of correct data type
         if (args is int) {

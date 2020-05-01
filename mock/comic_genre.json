@@ -5,70 +5,70 @@
       "genreList": [
         {
           "id": 1,
-          "cover": "http://api.webcomics.pk:3000/upload/posters/lore-olympus.jpg",
+          "cover": "http://api.webcomics.pk/upload/posters/lore-olympus.jpg",
           "title": "Lore Olympus",
           "author": "Rachel Smythe",
           "genres" : ["romance"]
         },
         {
           "id": 2,
-          "cover": "http://api.webcomics.pk:3000/upload/posters/subzero.jpg",
+          "cover": "http://api.webcomics.pk/upload/posters/subzero.jpg",
           "title": "SubZero",
           "author": "Junepurrr",
           "genres" : ["romance"]
         },
         {
           "id": 3,
-          "cover": "http://api.webcomics.pk:3000/upload/posters/untouchable.jpg",
+          "cover": "http://api.webcomics.pk/upload/posters/untouchable.jpg",
           "title": "unTouchable",
           "author": "masstar",
           "genres" : ["romance"]
         },
         {
           "id": 6,
-          "cover": "http://api.webcomics.pk:3000/upload/posters/letsplay.jpg",
+          "cover": "http://api.webcomics.pk/upload/posters/letsplay.jpg",
           "title": "Let’s Play",
           "author": "Mongie",
           "genres" : ["romance"]
         },
         {
           "id": 8,
-          "cover": "http://api.webcomics.pk:3000/upload/posters/bts-save-me.jpg",
+          "cover": "http://api.webcomics.pk/upload/posters/bts-save-me.jpg",
           "title": "SAVE ME",
           "author": "muslimmanga",
           "genres" : ["drama"]
         },
         {
           "id": 9,
-          "cover": "http://api.webcomics.pk:3000/upload/posters/days-of-hana.jpg",
+          "cover": "http://api.webcomics.pk/upload/posters/days-of-hana.jpg",
           "title": "Days of Hana",
           "author": "Seokwoo",
           "genres" : ["drama"]
         },
         {
           "id": 10,
-          "cover": "http://api.webcomics.pk:3000/upload/posters/lookism.jpg",
+          "cover": "http://api.webcomics.pk/upload/posters/lookism.jpg",
           "title": "Lookism",
           "author": "Taejoon Park",
           "genres" : ["drama"]
         },
         {
           "id": 11,
-          "cover": "http://api.webcomics.pk:3000/upload/posters/refundhighschool.jpg",
+          "cover": "http://api.webcomics.pk/upload/posters/refundhighschool.jpg",
           "title": "Refund High School",
           "author": "LICO",
           "genres" : ["fantasy"]
         },
         {
           "id" : 12,
-          "cover": "http://api.webcomics.pk:3000/upload/big-images/tower-of-god.jpg",
+          "cover": "http://api.webcomics.pk/upload/big-images/tower-of-god.jpg",
           "title": "Tower of God",
           "author": "Author: SIU",
           "genres" : ["fantasy"]
         },
         {
           "id": 13,
-          "cover": "http://api.webcomics.pk:3000/upload/posters/noblesse.jpg",
+          "cover": "http://api.webcomics.pk/upload/posters/noblesse.jpg",
           "title": "Noblesse",
           "author": "Jeho Son",
           "genres" : ["action"]

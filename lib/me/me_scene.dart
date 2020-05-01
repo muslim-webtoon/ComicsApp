@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -99,7 +98,8 @@ class _MeSceneState extends State<MeScene> {
   Widget meHeader() {
     return GestureDetector(
       onTap: () {
-        AppNavigator.pushLogin(context, auth: widget.auth, loginCallback: loginCallback);
+        //AppNavigator.pushLogin(context);
+        Navigator.of(context).pushNamed('/login');
       },
       child: Container(
         color: AppColor.white,
@@ -240,6 +240,7 @@ class _MeSceneState extends State<MeScene> {
         ),
       ),
     );
+
   }
 }
 

@@ -2,7 +2,7 @@
     "state": "200",
     "message": "success",
     "data": {
-      "cover": "http://api.webcomics.pk:3000/upload/big-images/truebeauty.jpg",
+      "cover": "http://api.webcomics.pk/upload/big-images/truebeauty.jpg",
       "title": "True Beauty",
       "author": "Yaongyi",
       "favorite": "20K",
@@ -12,28 +12,28 @@
       "episodeList": [
         {
           "id": 1601,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/truebeauty/001/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/truebeauty/001/thumb.png",
           "episode": "Episode 1",
           "index" : 1,
           "date": "18.03.04"
         },
         {
           "id": 1602,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/truebeauty/002/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/truebeauty/002/thumb.png",
           "episode": "Episode 2",
           "index" : 2,
           "date": "18.03.04"
         },
         {
           "id": 1603,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/truebeauty/085/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/truebeauty/085/thumb.png",
           "episode": "Episode 84",
           "index" : 85,
           "date": "20.03.11"
         },
         {
           "id": 1604,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/truebeauty/086/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/truebeauty/086/thumb.png",
           "episode": "Episode 85",
           "index" : 86,
           "date": "20.03.18"

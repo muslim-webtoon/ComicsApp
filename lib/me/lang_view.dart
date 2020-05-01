@@ -1,9 +1,18 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:easy_localization/easy_localization.dart';
+import 'package:pkcomics/generated/i18n.dart';
 
-class LanguageView extends StatelessWidget {
+
+
+class LanguageView extends StatefulWidget {
+
+  @override
+  State<StatefulWidget> createState() => _LanguageViewState();
+}
+
+class _LanguageViewState extends State<LanguageView> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,13 +49,13 @@ class LanguageView extends StatelessWidget {
                 context: context,
                 title: "English",
                 subtitle: "English",
-                locale: EasyLocalization.of(context).supportedLocales[0]),
+                locale:  Locale("en", "US")),
             buildDivider(),
             buildSwitchListTileMenuItem(
                 context: context,
                 title: "Urdu",
                 subtitle: "Urdu",
-                locale: EasyLocalization.of(context).supportedLocales[1]),
+                locale:  Locale("ur", "PK")),
             buildDivider(),
           ],
         ),
@@ -82,9 +91,10 @@ class LanguageView extends StatelessWidget {
           ),
           onTap: () {
             log(locale.toString(), name: this.toString());
-            EasyLocalization.of(context).locale = locale;
+            
             Navigator.pop(context);
           }),
     );
   }
 }
+

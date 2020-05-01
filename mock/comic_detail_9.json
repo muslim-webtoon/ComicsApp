@@ -2,7 +2,7 @@
     "state": "200",
     "message": "success",
     "data": {
-      "cover": "http://api.webcomics.pk:3000/upload/big-images/days-of-hana.jpg",
+      "cover": "http://api.webcomics.pk/upload/big-images/days-of-hana.jpg",
       "title": "Days of Hana",
       "author": "Seokwoo",
       "favorite": "20K",
@@ -12,28 +12,28 @@
       "episodeList": [
         {
           "id": 1801,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/001/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/days-of-hana/001/thumb.png",
           "episode": "Ep. 1",
           "index" : 1,
           "date": "18.03.04"
         },
         {
           "id": 1802,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/002/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/days-of-hana/002/thumb.png",
           "episode": "Ep. 2",
           "index" : 2,
           "date": "18.03.04"
         },
         {
           "id": 1803,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/112/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/days-of-hana/112/thumb.png",
           "episode": "Ep. 112",
           "index" : 112,
           "date": "20.03.08"
         },
         {
           "id": 1804,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/days-of-hana/113/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/days-of-hana/113/thumb.png",
           "episode": "Ep. 113 (Last Episode)",
           "index" : 113,
           "date": "20.03.15"

@@ -2,7 +2,7 @@
     "state": "200",
     "message": "success",
     "data": {
-      "cover": "http://api.webcomics.pk:3000/upload/big-images/letsplay.jpg",
+      "cover": "http://api.webcomics.pk/upload/big-images/letsplay.jpg",
       "title": "Let’s Play",
       "author": "Mongie",
       "favorite": "20K",
@@ -12,28 +12,28 @@
       "episodeList": [
         {
           "id": 1501,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/letsplay/001/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/letsplay/001/thumb.png",
           "episode": "Ep. 1",
           "index" : 1,
           "date": "17.11.07"
         },
         {
           "id": 1502,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/letsplay/002/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/letsplay/002/thumb.png",
           "episode": "Ep. 2",
           "index" : 2,
           "date": "17.11.07"
         },
         {
           "id": 1503,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/letsplay/111/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/letsplay/111/thumb.png",
           "episode": "Ep. 104",
           "index" : 108,
           "date": "20.03.10"
         },
         {
           "id": 1504,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/letsplay/112/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/letsplay/112/thumb.png",
           "episode": "Ep. 105",
           "index" : 109,
           "date": "20.03.17"

@@ -20,7 +20,7 @@
       },
       "genres": {
           "genres": "Anwaa",
-          "romance": "romanvi",
+          "romance": "Romanvi",
           "drama": "Drama",
           "fantasy": "Tasawwur",
           "action": "Action",
@@ -47,8 +47,7 @@
       "next": "Aglay",
       "comments": "Tabsaray",
       "send_a_comment": "Tabsara karay"
-  },
-  "msg": "Hello {} in the {} world "
+  }
 }
 
 

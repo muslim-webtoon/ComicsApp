@@ -40,17 +40,17 @@ class RecommendEveryDayItemView extends StatelessWidget {
                   maxLines: 1,
                 ),
                 SizedBox(height: 3,),
-                /*
                 Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     new StaticRatingBar(size: 13.0,rate: comicItem.rating/2,),
+                    //new StaticRatingBar(size: 13.0,rate: 5),
                     SizedBox(width: 5,),  
                     Text(comicItem.rating.toString(),style: TextStyle(color: AppColor.gray, fontSize: 12.0),)
+                    //Text("5",style: TextStyle(color: AppColor.gray, fontSize: 12.0),)
                   ],
                 ),
-                */
               ],
             ),
           ],

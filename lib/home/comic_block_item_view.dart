@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:pkcomics/public.dart';
+import 'package:badges/badges.dart';
 
 class ComicBlockItemView extends StatelessWidget {
   final ComicItem comicItem;
   final Color bgColor;
+  final String update;
 
-  ComicBlockItemView(this.comicItem, this.bgColor);
+  ComicBlockItemView(this.comicItem, this.bgColor, this.update);
 
   @override
   Widget build(BuildContext context) {
@@ -19,8 +21,13 @@ class ComicBlockItemView extends StatelessWidget {
         width: width,
         child: Column(
           children: <Widget>[
-            ComicCoverImage(comicItem.cover,
+            Badge(
+              badgeColor: Colors.orange,
+              badgeContent: 
+                Text(update, style: TextStyle(color: Colors.white)),
+              child: ComicCoverImage(comicItem.cover,
                 width: width, height: width / 0.75),
+            ),
             Text(
               comicItem.title,
               overflow: TextOverflow.ellipsis,

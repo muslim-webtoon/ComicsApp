@@ -2,7 +2,7 @@
     "state": "200",
     "message": "success",
     "data": {
-      "cover": "http://api.webcomics.pk:3000/upload/big-images/noblesse.jpg",
+      "cover": "http://api.webcomics.pk/upload/big-images/noblesse.jpg",
       "title": "Noblesse",
       "author": "Jeho Son, Kwangsu Lee",
       "favorite": "20K",
@@ -12,28 +12,28 @@
       "episodeList": [
         {
           "id": 2201,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/noblesse/001/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/noblesse/001/thumb.png",
           "episode": "Ep. 1",
           "index" : 1,
           "date": "18.03.04"
         },
         {
           "id": 2202,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/noblesse/002/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/noblesse/002/thumb.png",
           "episode": "Ep. 2",
           "index" : 2,
           "date": "18.03.04"
         },
         {
           "id": 2203,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/noblesse/542/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/noblesse/542/thumb.png",
           "episode": "Ep. 542",
           "index" : 543,
           "date": "20.03.08"
         },
         {
           "id": 2204,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/noblesse/543/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/noblesse/543/thumb.png",
           "episode": "Ep. 543 (Last Episode)",
           "index" : 544,
           "date": "20.03.15"

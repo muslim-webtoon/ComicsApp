@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pkcomics/public.dart';
 import 'package:pkcomics/home/comic_block_item_view.dart';
+import 'package:pkcomics/generated/i18n.dart';
 
 class ComicTabTwo extends StatefulWidget {
   final ComicGenre comicGenre;
@@ -82,7 +83,7 @@ class ComicTabTwoState extends State<ComicTabTwo>
         
     var children = widget.comicGenre.genreList
         .where((item) => item.genres[0] == _currentGenre)
-        .map((comicItem) => ComicBlockItemView(comicItem, Color(0xFFF5F5EE)))
+        .map((comicItem) => ComicBlockItemView(comicItem, Color(0xFFF5F5EE), 'UP'),)
         .toList();
 
     return DefaultTabController(
@@ -94,11 +95,11 @@ class ComicTabTwoState extends State<ComicTabTwo>
           backgroundColor: Colors.transparent,
           title: TabBar(
             tabs: [
-              Tab(text: 'Romance'),
-              Tab(text: 'Drama'),
-              Tab(text: 'Fantasy'),
-              Tab(text: 'Action'),
-              Tab(text: 'Slice Of Life'),
+              Tab(text: I18n.of(context).romance),
+              Tab(text: I18n.of(context).drama),
+              Tab(text: I18n.of(context).fantasy),
+              Tab(text: I18n.of(context).action),
+              Tab(text: I18n.of(context).sliceOfLife),
             ],
             controller: _tabController,
             labelPadding: EdgeInsets.symmetric(horizontal: 14),

@@ -8,14 +8,14 @@
     "title" : "Ep.15",
     "index" : 16,
     "comicPictureList": [
-      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/086/watermark/1.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/086/watermark/2.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/086/watermark/3.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/086/watermark/4.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/086/watermark/5.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/086/watermark/6.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/086/watermark/7.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/086/watermark/8.jpg"      
+      "http://api.webcomics.pk/upload/episodes/bts-save-me/086/watermark/1.jpg",
+      "http://api.webcomics.pk/upload/episodes/bts-save-me/086/watermark/2.jpg",
+      "http://api.webcomics.pk/upload/episodes/bts-save-me/086/watermark/3.jpg",
+      "http://api.webcomics.pk/upload/episodes/bts-save-me/086/watermark/4.jpg",
+      "http://api.webcomics.pk/upload/episodes/bts-save-me/086/watermark/5.jpg",
+      "http://api.webcomics.pk/upload/episodes/bts-save-me/086/watermark/6.jpg",
+      "http://api.webcomics.pk/upload/episodes/bts-save-me/086/watermark/7.jpg",
+      "http://api.webcomics.pk/upload/episodes/bts-save-me/086/watermark/8.jpg"      
     ]
   }
 }

@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:flutter/material.dart';
@@ -15,6 +16,7 @@ import 'package:pkcomics/widget/loading_indicator.dart';
 import 'package:pkcomics/services/authentication.dart';
 
 import 'package:connectivity/connectivity.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 class RootScene extends StatefulWidget {  
   @override
@@ -38,11 +40,13 @@ class RootSceneState extends State<RootScene> {
 
   Connectivity connectivity;
   StreamSubscription<ConnectivityResult> subscription;
+final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
 
   @override
   void initState() {
     super.initState();
-    this.initDynamicLinks();    
+    this.initDynamicLinks();
+    firebaseCloudMessaging_Listeners(); 
     setupApp();
 
   }
@@ -51,6 +55,27 @@ class RootSceneState extends State<RootScene> {
   void dispose() {
     subscription.cancel();
     super.dispose();        
+  }
+
+  void firebaseCloudMessaging_Listeners() {
+    if (Platform.isIOS) iOS_Permission();
+
+    _firebaseMessaging.getToken().then((token){
+      print('token: '+token);
+    });
+
+    _firebaseMessaging.configure(
+      onMessage: (Map<String, dynamic> message) async {
+        print('on message $message');
+      },
+      onResume: (Map<String, dynamic> message) async {
+        print('on resume $message');
+      },
+      onLaunch: (Map<String, dynamic> message) async {
+        print('on launch $message');
+      },
+    );
+
   }
 
   void initDynamicLinks() async {
@@ -74,6 +99,17 @@ class RootSceneState extends State<RootScene> {
         print(e.message);
       }
     );
+  }
+
+  void iOS_Permission() {
+    _firebaseMessaging.requestNotificationPermissions(
+        IosNotificationSettings(sound: true, badge: true, alert: true)
+    );
+    _firebaseMessaging.onIosSettingsRegistered
+        .listen((IosNotificationSettings settings)
+    {
+      print("Settings registered: $settings");
+    });
   }
 
   setupApp() async {

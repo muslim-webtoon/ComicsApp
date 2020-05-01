@@ -8,14 +8,14 @@
     "title" : "Episode 1",
     "index" : 1,
     "comicPictureList": [
-      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/001/watermark/1.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/001/watermark/2.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/001/watermark/3.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/001/watermark/4.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/001/watermark/5.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/001/watermark/6.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/001/watermark/7.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/001/watermark/8.jpg"
+      "http://api.webcomics.pk/upload/episodes/lore-olympus/001/watermark/1.jpg",
+      "http://api.webcomics.pk/upload/episodes/lore-olympus/001/watermark/2.jpg",
+      "http://api.webcomics.pk/upload/episodes/lore-olympus/001/watermark/3.jpg",
+      "http://api.webcomics.pk/upload/episodes/lore-olympus/001/watermark/4.jpg",
+      "http://api.webcomics.pk/upload/episodes/lore-olympus/001/watermark/5.jpg",
+      "http://api.webcomics.pk/upload/episodes/lore-olympus/001/watermark/6.jpg",
+      "http://api.webcomics.pk/upload/episodes/lore-olympus/001/watermark/7.jpg",
+      "http://api.webcomics.pk/upload/episodes/lore-olympus/001/watermark/8.jpg"
     ]
   }
 }

@@ -6,6 +6,7 @@ import 'package:pkcomics/tab/tab_two.dart';
 import 'package:pkcomics/tab/tab_three.dart';
 import 'package:pkcomics/tab/tab_four.dart';
 
+import 'package:pkcomics/generated/i18n.dart';
 
 class TabScene extends StatefulWidget {
 

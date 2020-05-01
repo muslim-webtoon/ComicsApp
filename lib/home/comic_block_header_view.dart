@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:pkcomics/public.dart';
 
+import 'package:pkcomics/generated/i18n.dart';
 
 class ComicBlockHeaderView extends StatelessWidget {
   final String titleName;
@@ -25,20 +26,18 @@ class ComicBlockHeaderView extends StatelessWidget {
         widget = Row(
           children: <Widget>[
             Text(
-              "Recently Read",
+              I18n.of(context).recently,
               style: TextStyle(fontSize: 20, color: AppColor.darkGray),
             ),
             Expanded(child: Container()),
             GestureDetector(
               onTap: () {
-                //AppNavigator.push(context, ComicRecentView());
-                //AppNavigator.pushMovieList(context, title, action);
               },
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    "More",
+                    I18n.of(context).more,
                     style: TextStyle(fontSize: 15, color: AppColor.gray),
                   ),
                   SizedBox(width: 10),
@@ -58,7 +57,7 @@ class ComicBlockHeaderView extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  'Ranking',
+                  I18n.of(context).ranking,
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: 5,),
@@ -77,7 +76,9 @@ class ComicBlockHeaderView extends StatelessWidget {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  Text('More',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14),),
+                  Text(
+                    I18n.of(context).more,
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14),),
                   SizedBox(width: 3,),
                   Icon(CupertinoIcons.forward, size: 14,),
                   SizedBox(width: 20),
@@ -95,7 +96,7 @@ class ComicBlockHeaderView extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  'Daily',
+                  I18n.of(context).daily,
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: 5,),

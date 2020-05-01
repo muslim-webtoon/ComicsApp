@@ -8,14 +8,14 @@
     "title" : "Ep. 135 (Epilogue)",
     "index" : 135,
     "comicPictureList": [
-      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/135/watermark/1.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/135/watermark/2.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/135/watermark/3.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/135/watermark/4.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/135/watermark/5.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/135/watermark/6.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/135/watermark/7.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/135/watermark/8.jpg"      
+      "http://api.webcomics.pk/upload/episodes/refundhighschool/135/watermark/1.jpg",
+      "http://api.webcomics.pk/upload/episodes/refundhighschool/135/watermark/2.jpg",
+      "http://api.webcomics.pk/upload/episodes/refundhighschool/135/watermark/3.jpg",
+      "http://api.webcomics.pk/upload/episodes/refundhighschool/135/watermark/4.jpg",
+      "http://api.webcomics.pk/upload/episodes/refundhighschool/135/watermark/5.jpg",
+      "http://api.webcomics.pk/upload/episodes/refundhighschool/135/watermark/6.jpg",
+      "http://api.webcomics.pk/upload/episodes/refundhighschool/135/watermark/7.jpg",
+      "http://api.webcomics.pk/upload/episodes/refundhighschool/135/watermark/8.jpg"      
     ]
   }
 }

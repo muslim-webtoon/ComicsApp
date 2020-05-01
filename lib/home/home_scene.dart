@@ -6,11 +6,12 @@ import 'package:pkcomics/home/home_update_today_view.dart';
 import 'package:pkcomics/public.dart';
 
 import 'package:pkcomics/home/home_banner.dart';
-import 'package:pkcomics/home/comic_block_view.dart';
 import 'package:pkcomics/home/home_recommend_everyday_view.dart';
 import 'package:pkcomics/widget/loading_indicator.dart';
 
-import 'package:easy_localization/easy_localization.dart';
+import 'package:pkcomics/generated/i18n.dart';
+
+import 'package:geolocation/geolocation.dart';
 
 class HomeScene extends StatefulWidget {
   @override
@@ -34,10 +35,15 @@ class HomeState extends State<HomeScene> with AutomaticKeepAliveClientMixin {
 
   PageState pageState = PageState.Loading;
 
-
   @override
   void initState() {
     super.initState();
+
+    // If Geolocation is unable to get location in emulator, uncomment this and then restart the program.
+    // This tends to fix the error and you can see if the GPS is actually getting the location.
+    var x = Geolocation.locationUpdates(
+        accuracy: LocationAccuracy.best, inBackground: false);
+    x.listen((d) => print(d.isSuccessful));
 
     fetchData();
     scrollController.addListener(() {
@@ -111,8 +117,8 @@ class HomeState extends State<HomeScene> with AutomaticKeepAliveClientMixin {
             //color: Colors.green.shade100,
             color: AppColor.golden,
           ),
-          accountEmail: Text("Example"),
-          accountName: Text("example@email.com"), 
+          accountEmail: Text("example@email.com"),
+          accountName: Text("Here4You"), 
           currentAccountPicture: CircleAvatar(
             backgroundImage: AssetImage('img/placeholder_avatar.png'),
           ),
@@ -165,7 +171,6 @@ class HomeState extends State<HomeScene> with AutomaticKeepAliveClientMixin {
         widget = HomeBanner(banner);
         break;
       case 1:
-        //widget = ComicBlockView(blockList);
         widget = HomeThreeGridView(blockList, 'Recently', 'recent');
         break;
       case 2:
@@ -194,15 +199,9 @@ class HomeState extends State<HomeScene> with AutomaticKeepAliveClientMixin {
             alignment: Alignment.center,
             padding: EdgeInsets.symmetric(horizontal: 15),
             child: Text(
-              "title",
-              style: TextStyle(color: AppColor.white),
-              ).tr(context: context)),
-            /*
-            child: Text(
-              "Pehli Toon",
-              style: TextStyle(color: AppColor.white),
+                I18n.of(context).appname,
+                style: TextStyle(color: AppColor.white),
               )),
-            */
         iconTheme: new IconThemeData(color: Colors.white),
         actions: <Widget>[
           IconButton(

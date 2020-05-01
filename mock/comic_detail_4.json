@@ -2,7 +2,7 @@
     "state": "200",
     "message": "success",
     "data": {
-      "cover": "http://api.webcomics.pk:3000/upload/big-images/super-secret.jpg",
+      "cover": "http://api.webcomics.pk/upload/big-images/super-secret.jpg",
       "title": "Super Secret",
       "author": "eon",
       "favorite": "20K",
@@ -12,28 +12,28 @@
       "episodeList": [
         {
           "id": 1301,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/super-secret/001/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/super-secret/001/thumb.png",
           "episode": "Ep. 0",
           "index" : 1,
           "date": "16.05.04"
         },
         {
           "id": 1302,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/super-secret/002/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/super-secret/002/thumb.png",
           "episode": "Ep. 1",
           "index" : 2,
           "date": "16.05.04"
         },
         {
           "id": 1303,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/super-secret/142/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/super-secret/142/thumb.png",
           "episode": "Epilogue 2",
           "index" : 142,
           "date": "19.01.02"
         },
         {
           "id": 1304,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/super-secret/143/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/super-secret/143/thumb.png",
           "episode": "Afterword",
           "index" : 143,
           "date": "19.01.09"

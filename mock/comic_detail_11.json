@@ -2,7 +2,7 @@
     "state": "200",
     "message": "success",
     "data": {
-      "cover": "http://api.webcomics.pk:3000/upload/big-images/refundhighschool.jpg",
+      "cover": "http://api.webcomics.pk/upload/big-images/refundhighschool.jpg",
       "title": "Refund High School",
       "author": "LICO",
       "favorite": "20K",
@@ -12,28 +12,28 @@
       "episodeList": [
         {
           "id": 2001,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/001/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/refundhighschool/001/thumb.png",
           "episode": "Ep. 1",
           "index" : 1,
           "date": "18.04.19"
         },
         {
           "id": 2002,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/002/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/refundhighschool/002/thumb.png",
           "episode": "Ep. 2",
           "index" : 2,
           "date": "18.04.19"
         },
         {
           "id": 2003,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/134/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/refundhighschool/134/thumb.png",
           "episode": "Ep. 134 (Last Episode)",
           "index" : 134,
           "date": "19.07.18"
         },
         {
           "id": 2004,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/refundhighschool/135/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/refundhighschool/135/thumb.png",
           "episode": "Ep. 135 (Epilogue)",
           "index" : 135,
           "date": "19.07.21"

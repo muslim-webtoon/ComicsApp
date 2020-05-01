@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
 import 'package:pkcomics/app/app_navigator.dart';
+import 'package:pkcomics/generated/i18n.dart';
 
 class HomeSectionView extends StatelessWidget {
   final String title;
@@ -42,7 +43,9 @@ class HomeSectionView extends StatelessWidget {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                Text('More',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14),),
+                Text(
+                  I18n.of(context).more,
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14),),
                 SizedBox(width: 3,),
                 Icon(CupertinoIcons.forward, size: 14,),
                 SizedBox(width: 20,),

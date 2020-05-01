@@ -45,6 +45,5 @@
         "next": "Next",
         "comments": "Comments",
         "send_a_comment": "Send a comment"
-    },
-    "msg": "Hello {} in the {} world "
+    }
 }

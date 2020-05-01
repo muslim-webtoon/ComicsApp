@@ -3,7 +3,7 @@ class RecommendEveryDay {
   String cover;
   String title;
   String author;
-  int rating;
+  dynamic rating;
 
   RecommendEveryDay.fromJson(Map data) {
     id = data['id'];

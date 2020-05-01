@@ -2,7 +2,7 @@
     "state": "200",
     "message": "success",
     "data": {
-      "cover": "http://api.webcomics.pk:3000/upload/big-images/bts-save-me.jpg",
+      "cover": "http://api.webcomics.pk/upload/big-images/bts-save-me.jpg",
       "title": "SAVE ME",
       "author": "LICO",
       "favorite": "20K",
@@ -12,28 +12,28 @@
       "episodeList": [
         {
           "id": 1701,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/001/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/bts-save-me/001/thumb.png",
           "episode": "Prologue",
           "index" : 1,
           "date": "18.03.04"
         },
         {
           "id": 1702,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/002/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/bts-save-me/002/thumb.png",
           "episode": "Ep.1",
           "index" : 2,
           "date": "18.03.04"
         },
         {
           "id": 1703,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/014/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/bts-save-me/014/thumb.png",
           "episode": "Ep.14",
           "index" : 15,
           "date": "20.03.08"
         },
         {
           "id": 1704,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/bts-save-me/015/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/bts-save-me/015/thumb.png",
           "episode": "Ep.15",
           "index" : 16,
           "date": "20.03.15"

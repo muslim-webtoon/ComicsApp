@@ -2,7 +2,7 @@
     "state": "200",
     "message": "success",
     "data": {
-      "cover": "http://api.webcomics.pk:3000/upload/big-images/oh-holy.jpg",
+      "cover": "http://api.webcomics.pk/upload/big-images/oh-holy.jpg",
       "title": "Oh! Holy",
       "author": "Ahyun",
       "favorite": "20K",
@@ -12,29 +12,29 @@
       "episodeList": [
         {
           "id": 1401,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/oh-holy/001/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/oh-holy/001/thumb.png",
           "episode": "Ep. 1",
           "index" : 1,
           "date": "16.10.17"
         },
         {
           "id": 1402,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/oh-holy/002/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/oh-holy/002/thumb.png",
           "episode": "Ep. 2",
           "index" : 2,
           "date": "16.10.17"
         },
         {
           "id": 1403,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/oh-holy/140/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/oh-holy/140/thumb.png",
           "episode": "Ep. 140 (Last Episode)",
           "index" : 140,
           "date": "19.06.03"
         },
         {
           "id": 1404,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/oh-holy/141/thumb.png",
-          "episode": "Ep. 139 - Epilogue ~Touch~",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/oh-holy/141/thumb.png",
+          "episode": "Epilogue",
           "index" : 141,
           "date": "19.06.10"
         }

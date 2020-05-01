@@ -17,8 +17,10 @@ class ComicTabThree extends StatelessWidget {
     }
     var items = comicRanking.rankingList;
     List<Widget> children = [
-      Text(comicRanking.updateTime),
-      
+      Padding(
+        padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
+        child: Text(comicRanking.updateTime),
+      ),
     ];
     for (var i =0; i < items.length; i++) {
       var item = items[i];

@@ -64,11 +64,8 @@ class AppNavigator {
     }));
   }
 
-  static pushLogin(BuildContext context, {auth, loginCallback}) {
-    AppNavigator.push(context, LoginScene(
-      auth: auth,
-      loginCallback: loginCallback,
-    ));
+  static pushLogin(BuildContext context) {
+    AppNavigator.push(context, LoginScene());
   }
 
   static pushWeb(BuildContext context, String url, String title) {

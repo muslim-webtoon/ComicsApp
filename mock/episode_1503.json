@@ -8,14 +8,14 @@
     "title" : "Ep. 104",
     "index" : 108,
     "comicPictureList": [
-      "http://api.webcomics.pk:3000/upload/episodes/letsplay/111/watermark/1.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/letsplay/111/watermark/2.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/letsplay/111/watermark/3.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/letsplay/111/watermark/4.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/letsplay/111/watermark/5.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/letsplay/111/watermark/6.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/letsplay/111/watermark/7.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/letsplay/111/watermark/8.jpg"      
+      "http://api.webcomics.pk/upload/episodes/letsplay/111/watermark/1.jpg",
+      "http://api.webcomics.pk/upload/episodes/letsplay/111/watermark/2.jpg",
+      "http://api.webcomics.pk/upload/episodes/letsplay/111/watermark/3.jpg",
+      "http://api.webcomics.pk/upload/episodes/letsplay/111/watermark/4.jpg",
+      "http://api.webcomics.pk/upload/episodes/letsplay/111/watermark/5.jpg",
+      "http://api.webcomics.pk/upload/episodes/letsplay/111/watermark/6.jpg",
+      "http://api.webcomics.pk/upload/episodes/letsplay/111/watermark/7.jpg",
+      "http://api.webcomics.pk/upload/episodes/letsplay/111/watermark/8.jpg"      
     ]
   }
 }

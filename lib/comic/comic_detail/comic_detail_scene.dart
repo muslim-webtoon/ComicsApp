@@ -116,55 +116,62 @@ class ComicDetailState extends State<ComicDetailScene> {
               },
               child: Container(
                 margin: EdgeInsets.only(bottom: 2.0),
-                child: Row(
+                child: Wrap(
+                  alignment: WrapAlignment.end,
+                  spacing: 15,
+                  runSpacing: 15,
                   children: <Widget>[
-                    Container(
-                      margin: EdgeInsets.only(right: 8.0),
-                      width: 90.0,
-                      height: 150.0,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image:
-                              NetworkImage(items[itemIndex].imgurl),
-                        ),
-                      ),
-                    ),
-                    Container(
-                      height: 50.0,
-                      width: 200.0,
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            '${items[itemIndex].episode}',
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 14.0,
-                              color: Color.fromRGBO(0, 0, 0, 0.8),
+                    Row(
+                      children: <Widget>[
+                        Container(
+                          margin: EdgeInsets.only(right: 8.0),
+                          width: 90.0,
+                          height: 150.0,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image:
+                                  NetworkImage(items[itemIndex].imgurl),
                             ),
                           ),
-                          Text(
-                            '${items[itemIndex].date}',
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(
-                              fontSize: 12.0,
-                              color: Color.fromRGBO(0, 0, 0, 0.3),
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
-                    Container(
-                      height: 120.0,
-                      width: 50.0,
-                      child: Align(
-                        alignment: Alignment.centerRight,
-                        child: Text('#${items[itemIndex].index}'),
-                      ),
+                        ),
+                        Container(
+                          height: 50.0,
+                          width: 200.0,
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              Text(
+                                '${items[itemIndex].episode}',
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  fontSize: 14.0,
+                                  color: Color.fromRGBO(0, 0, 0, 0.8),
+                                ),
+                              ),
+                              Text(
+                                '${items[itemIndex].date}',
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontSize: 12.0,
+                                  color: Color.fromRGBO(0, 0, 0, 0.3),
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                        Container(
+                          height: 120.0,
+                          width: 50.0,
+                          child: Align(
+                            alignment: Alignment.centerRight,
+                            child: Text('#${items[itemIndex].index}'),
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),

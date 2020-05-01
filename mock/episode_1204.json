@@ -8,14 +8,14 @@
     "title" : "Ep. 139 - Epilogue ~Touch~",
     "index" : 141,
     "comicPictureList": [
-      "http://api.webcomics.pk:3000/upload/episodes/untouchable/141/watermark/1.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/untouchable/141/watermark/2.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/untouchable/141/watermark/3.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/untouchable/141/watermark/4.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/untouchable/141/watermark/5.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/untouchable/141/watermark/6.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/untouchable/141/watermark/7.jpg",
-      "http://api.webcomics.pk:3000/upload/episodes/untouchable/141/watermark/8.jpg"      
+      "http://api.webcomics.pk/upload/episodes/untouchable/141/watermark/1.jpg",
+      "http://api.webcomics.pk/upload/episodes/untouchable/141/watermark/2.jpg",
+      "http://api.webcomics.pk/upload/episodes/untouchable/141/watermark/3.jpg",
+      "http://api.webcomics.pk/upload/episodes/untouchable/141/watermark/4.jpg",
+      "http://api.webcomics.pk/upload/episodes/untouchable/141/watermark/5.jpg",
+      "http://api.webcomics.pk/upload/episodes/untouchable/141/watermark/6.jpg",
+      "http://api.webcomics.pk/upload/episodes/untouchable/141/watermark/7.jpg",
+      "http://api.webcomics.pk/upload/episodes/untouchable/141/watermark/8.jpg"      
     ]
   }
 }

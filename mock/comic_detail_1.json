@@ -2,7 +2,7 @@
     "state": "200",
     "message": "success",
     "data": {
-      "cover": "http://api.webcomics.pk:3000/upload/big-images/lore-olympus.jpg",
+      "cover": "http://api.webcomics.pk/upload/big-images/lore-olympus.jpg",
       "title": "Lore Olympus",
       "author": "Rachel Smythe",
       "favorite": "20K",
@@ -12,28 +12,28 @@
       "episodeList": [
         {
           "id": 1001,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/001/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/lore-olympus/001/thumb.png",
           "episode": "Episode 1",
           "index" : 1,
           "date": "18.03.04"
         },
         {
           "id": 1002,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/002/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/lore-olympus/002/thumb.png",
           "episode": "Episode 2",
           "index" : 2,
           "date": "18.03.04"
         },
         {
           "id": 1003,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/105/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/lore-olympus/105/thumb.png",
           "episode": "Episode 101",
           "index" : 105,
           "date": "20.03.08"
         },
         {
           "id": 1004,
-          "imgurl": "http://api.webcomics.pk:3000/upload/episodes/lore-olympus/106/thumb.png",
+          "imgurl": "http://api.webcomics.pk/upload/episodes/lore-olympus/106/thumb.png",
           "episode": "Episode 102",
           "index" : 106,
           "date": "20.03.15"

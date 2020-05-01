@@ -12,6 +12,9 @@ export 'package:pkcomics/app/app_navigator.dart';
 export 'package:pkcomics/app/request.dart';
 export 'package:pkcomics/app/rating_view.dart';
 
+// Actions
+export 'package:pkcomics/actions/base_api.dart';
+
 // Util
 export 'package:pkcomics/util/screen.dart';
 export 'package:pkcomics/util/collectionsUtil.dart';
@@ -23,6 +26,7 @@ export 'package:pkcomics/util/utility.dart';
 // Widget
 export 'package:pkcomics/widget/comic_cover_image.dart';
 export 'package:pkcomics/widget/web_view_scene.dart';
+export 'package:pkcomics/widget/custom_stfstate.dart';
 
 // Model
 export 'package:pkcomics/model/comic_item.dart';
